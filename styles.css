@@ -1,0 +1,161 @@
+.container {
+   display: grid;
+}
+.box {
+        width: 750px;
+        height: 500px;
+        background-color: lightgrey;
+        border: 2px solid lightslategray;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50px  50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-rows:25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+}
+.hotbar {
+        width: 750px;
+        height: 50px;
+        background-color: rgb(96, 180, 206);
+        margin: auto;
+        margin-top: 0px;
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-rows: 10px 10px 10px 10px 10px;
+        font-family: sans-serif;
+}
+.hotbar h1 {
+   grid-row: 2 / 2;
+   grid-column: 6 / 10;
+   margin: auto;
+}
+.hotbar a {
+display: flex;
+align-items: center;
+}
+.abcontainer {
+   width: 1000px; 
+   height: 1000px;
+   background-color: lightgrey;
+   border: 2px solid lightslategray;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+   grid-template-rows:25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+}
+.h1box {
+   grid-row: 3 / 4;
+   grid-column: 6 / 10;
+   margin: auto;
+   font-family: sans-serif;
+}
+.funfact {
+   grid-row: 14 / 15;
+   grid-column: 13 / 15;
+}
+.favpfp {
+   grid-row: 4 / 12;
+   grid-column: 11 /15;
+}
+.favpfpP {
+   grid-row: 12 / 13;
+   grid-column: 11 / 16;
+   font-family: sans-serif;
+}
+.usernameP {
+   grid-row: 5 / 5;
+   grid-column: 1 / 9;
+   font-family: sans-serif;
+   margin: auto;
+   font-size: large;
+}
+.pronouce {
+grid-row: 6 / 6;
+grid-column: 1 / 4;
+margin: auto;
+font-family: sans-serif;
+font-size: medium;
+}
+.aDiscord {
+   grid-row: 16 / 19;
+   grid-column: -16 / -15;
+}
+.ahotbar {
+   width: 1000px;
+   height: 60px;
+   background-color: rgb(96, 180, 206);
+   margin: auto;  
+   margin-top: 0px;
+   display: grid;
+   grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+   grid-template-rows: 10px 10px 10px 10px 10px;
+   font-family: sans-serif;
+}
+.h1boxproject {
+   grid-row: 1 / 1;
+   grid-column: 9 / 13;
+   margin: auto;
+   font-family: sans-serif;
+}
+.pprojecthotbar {
+   grid-row: 5 / 5;
+   grid-column: 8 / 14;
+   margin: auto;
+   font-family: sans-serif;
+}
+.parkorVideo {
+   grid-row: 17 / 17;
+   grid-column: 4 / 8;
+   margin: auto;
+}
+.VideoText {
+   grid-row: 10 / 10;
+   grid-column: 2 / 10;
+   margin: auto;
+   font-family: sans-serif;
+   text-align: center;
+}
+.game2box {
+   width: 450px;
+   height: 300px;
+   background-color: rgb(96, 180, 206);
+   margin: auto;  
+   margin-top: 0px;
+   display: grid;
+   font-family: sans-serif;
+   grid-row: 12 / 12;
+   grid-column: 2 / 10;
+   border: 4px solid rgb(89, 93, 98);
+}
+.logo {
+   width: 350px;
+   height: 300px;
+   background-color: rgb(96, 180, 206);
+   margin: auto;  
+   margin-top: 0px;
+   display: grid;
+   font-family: sans-serif;
+   grid-row: 4;
+   grid-column: 10 / 20;
+   border: 4px solid rgb(89, 93, 98);
+   border-image: 2px;
+   grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+   grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+}
+.logoimg {
+   grid-row: 5;
+   grid-column: 4;
+}
+.logo p {
+grid-row: 1;
+grid-column: 1 / 12;
+font-size: 20px;
+}
+.projectsAnchor {
+   display: grid;
+   grid-row: 3;
+   grid-column: 2 / 3;
+   font-size: large;
+   font-family: sans-serif;
+   width: 63px;
+   height: 17px;
+   background-color: white;
+}

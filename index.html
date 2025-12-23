@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        #myBox {
+        width: 500px;
+        height: 200px;
+        background-color: lightgrey;
+        border: 2px solid lightslategray;
+        margin: auto;
+        display: none;
+        font-family: sans-serif;
+        }
+    </style>
+    <div class="box">
+        <div class="hotbar">
+        <h1>Home Page</h1>
+        <a class="projectsAnchor" href="projects.html">projects</a>
+        </div>
+    <h1 class="h1box">Info Card</h1>
+            <div class="container">
+    </div>
+    <img class="favpfp" src="images/yyep.webp" alt="my fav pfp" style="width:200px;height:200px;">
+    <p class="favpfpP">This is my favorite profile picture</p>
+    <p class="usernameP">I'm usually known as "ImDed" or "plati"</p>
+    <p class="pronouce">He/Him</p>
+    <div class="Dbox" style="grid-column: 2; grid-row: 8; width: 250px; height: 150px; background-color: lightcyan; border: 2px solid gray; margin: auto;">
+    <p style="text-align: center; font-family: sans-serif;">I'm a pretty chill, silly, loving person. I'm pretty outgoing. I usually do risky things regerdless of how stupid or risky they are. I care about the people I love...maybe a little too much <em>sometimes</em></p>
+    </div>
+    <a class="aDiscord" target="_blank" href="https://discord.gg/mA7Mjjr3SX">
+        <img src="images/images-removebg-preview.png" alt="Click here to visit my discord server" style="width:150px; height:auto;">
+    </a>
+    <button class="funfact" onclick="buttonhandle()">fun fact</button>
+        <div id="myBox">
+        <h1 id="text-display">text will display here</h1>
+        <button onclick="hideBox()">Close</button>
+    </div>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
